@@ -1,7 +1,13 @@
 import React from 'react'
+import Navigation from '../components/Navigation'
 
 const Home = () => {
-    return <h1>Hello Gatsby</h1>
+    return (
+    	<>
+    		<Navigation />
+    		<h1>Welcome</h1>
+    	</>
+    )
 }
 
 export default Home
