@@ -28,7 +28,8 @@ $ gatsby develop
 + http://localhost:8000/___graphql
 
 
-## Pages
-
-+ http://localhost:8000
-+ http://localhost:8000/about
+## Build
+Run the command to create a production build and output production code in the public directory:
+```
+$ gatsby build
+```
