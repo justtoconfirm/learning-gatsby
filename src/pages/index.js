@@ -6,14 +6,14 @@ const Home = ({ data }) => {
 
 	const { title, description } = data.site.siteMetadata
 
-    return (
-    	<>
-    		<Navigation />
+	return (
+		<>
+			<Navigation />
     		
-    		<h1>{title}</h1>
-    		<p>{description}</p>
-    	</>
-    )
+			<h1>{title}</h1>
+			<p>{description}</p>
+		</>
+	)
 }
 
 export const pageQuery = graphql`
